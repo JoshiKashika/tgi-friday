@@ -79,7 +79,7 @@ function opentime(e: any) {
               <div className="mt-2">
               {/* <h6>Opening Hours</h6> */}
                 {result.rawData.hours?.reopenDate ? <>
-                  <div className="icon"> <img className=" " src={timesvg} width="20" height="20" alt="" /> </div>
+                  <div className="icon">  </div>
                   <div className=" flex open-now-string items-center " data-id={`main-shop-${result.rawData.id}`} onClick={opentime}>
                     {StaticData.tempClosed}
                   </div>
