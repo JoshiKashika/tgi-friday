@@ -490,8 +490,7 @@ breadcrumbScheme.push({
        <div className="mt-8 mb-16 additional"  >
        <div className="container">
        <div className= "rounded-xl drop-shadow-md">
-<!--         {console.log(c_storeDescription, "ds")}
-        <Details hello={c_storeDescription}  > </Details> -->
+        
         </div>
         </div>
         </div>
