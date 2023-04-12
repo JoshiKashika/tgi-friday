@@ -58,8 +58,7 @@ function opentime(e: any) {
         <div className="center-column">
           <div className="lp-param-results lp-subparam-hours">
             <div className="location-name-miles icon-row">
-              <div className="icon text-black relative"> <img className=" " src={redmapimage} width="20" height="20"
-                alt={''} /><span className="map-count">D</span></div>
+              <div className="icon text-black relative"> <span className="map-count">D</span></div>
               <h2><Link className="inline-block notHighlight"
                data-ya-track={`viewDetail -${result.rawData.name}`}
                eventName={`viewDetail -${result.rawData.name}`}
