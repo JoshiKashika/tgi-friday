@@ -114,7 +114,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   //   url += `${document.slug.toString()}.html`;
   // }
 
-  return `${document.locale}/${document.id}`; 
+  return `${document.locale}/${document.slug}`; 
 
 
 };
