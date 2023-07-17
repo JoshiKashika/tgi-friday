@@ -10,6 +10,8 @@ export const googleApikey = "AIzaSyDZNQlSlEIkFAct5VzUtsP4dSbvOr2bE18";
 export const regionNames = new Intl.DisplayNames(['en'], { type: 'region' })
 export const AnalyticsEnableDebugging  = true;
 export const AnalyticsEnableTrackingCookie  = true;
+export const verticalKey = "locations" ;
+export const experienceKey = "tgi-fridays";
 export const conversionDetailsDirection = {
   cid: "",
   cv: "1",
@@ -68,15 +70,15 @@ export const Openclose = `<svg xmlns="http://www.w3.org/2000/svg" class="notHigh
 <path d="M9,13.5l4.793,4.793L18.585,13.5Z" transform="translate(-9 -13.5)" />
 </svg>`;
 
-export const Matalan_marker = `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="30" viewBox="0 0 32.396 43.195">
-<g transform="translate(-1106.871 -1030.805)">
-  <path d="M14.534,42.324C2.275,24.553,0,22.729,0,16.2a16.2,16.2,0,0,1,32.4,0c0,6.531-2.275,8.355-14.534,26.126a2.026,2.026,0,0,1-3.329,0ZM16.2,22.947A6.749,6.749,0,1,0,9.449,16.2,6.749,6.749,0,0,0,16.2,22.947Z" transform="translate(1106.871 1030.805)" fill="#02a6db" />
-  <g transform="translate(154 186.171)">
-    <path id="Path_51" data-name="Path 51" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(957 849.829)" fill="#fff" />
-    <text id="M" transform="translate(961.267 867.509)" fill="#02a6db" font-size="16" font-family="SofiaProLight, Sofia Pro"><tspan x="0" y="0">M</tspan></text>
-  </g>
-</g>
-</svg>`;
+// export const Matalan_marker = `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="30" viewBox="0 0 32.396 43.195">
+// <g transform="translate(-1106.871 -1030.805)">
+//   <path d="M14.534,42.324C2.275,24.553,0,22.729,0,16.2a16.2,16.2,0,0,1,32.4,0c0,6.531-2.275,8.355-14.534,26.126a2.026,2.026,0,0,1-3.329,0ZM16.2,22.947A6.749,6.749,0,1,0,9.449,16.2,6.749,6.749,0,0,0,16.2,22.947Z" transform="translate(1106.871 1030.805)" fill="#02a6db" />
+//   <g transform="translate(154 186.171)">
+//     <path id="Path_51" data-name="Path 51" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(957 849.829)" fill="#fff" />
+//     <text id="M" transform="translate(961.267 867.509)" fill="#02a6db" font-size="16" font-family="SofiaProLight, Sofia Pro"><tspan x="0" y="0">M</tspan></text>
+//   </g>
+// </g>
+// </svg>`;
 
 export const Directionsvg = `<svg
 xmlns="http://www.w3.org/2000/svg"

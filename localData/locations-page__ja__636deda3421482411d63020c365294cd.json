@@ -1,0 +1,52 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations-page",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "コロンビア",
+		"countryCode": "US",
+		"line1": "3030 I-70 ドクター・セ",
+		"localizedCountryName": "アメリカ合衆国",
+		"localizedRegionName": "ミズーリ",
+		"postalCode": "65201",
+		"region": "MO"
+	},
+	"businessId": 3218125,
+	"c_bannerImage": {
+		"description": "bannerImage",
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/6exJg1O9mx3IXycH1iTiPOJ_Z_MeKyY1w0bp0gHrbmw/1500x300.jpg",
+			"width": 1500
+		}
+	},
+	"cityCoordinate": {
+		"latitude": 38.951551,
+		"longitude": -92.328594
+	},
+	"id": "2665661659839794463",
+	"key": "0:location:knowledgeGraph:42078296:ja",
+	"locale": "ja",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "ja"
+	},
+	"name": "TGIフライデーズ、ミズーリ州コロンビア",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"timezone": "America/Chicago",
+	"uid": 42078296,
+	"yextDisplayCoordinate": {
+		"latitude": 38.960149,
+		"longitude": -92.290661
+	}
+}

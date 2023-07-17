@@ -1,0 +1,38 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "404",
+		"streamId": "404",
+		"templateType": "JS"
+	},
+	"_site": {
+		"id": "global-data",
+		"meta": {
+			"entityType": {
+				"id": "ce_locatorPage",
+				"uid": 119232
+			},
+			"locale": "en"
+		},
+		"name": "Global Data",
+		"uid": 42078306
+	},
+	"businessId": 3218125,
+	"id": "global-data",
+	"key": "0:404:knowledgeGraph:42078306:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_locatorPage",
+			"uid": 119232
+		},
+		"locale": "en"
+	},
+	"name": "Global Data",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 42078306
+}

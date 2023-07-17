@@ -1,0 +1,65 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations-page",
+		"templateType": "JS"
+	},
+	"_site": {
+		"id": "global-data",
+		"meta": {
+			"entityType": {
+				"id": "ce_locatorPage",
+				"uid": 119232
+			},
+			"locale": "en"
+		},
+		"name": "Global Data",
+		"uid": 42078306
+	},
+	"address": {
+		"city": "Oklahoma City",
+		"countryCode": "US",
+		"line1": "4239 NW Expy",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Oklahoma",
+		"postalCode": "73116",
+		"region": "OK"
+	},
+	"businessId": 3218125,
+	"c_bannerImage": {
+		"description": "bannerImage",
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/6exJg1O9mx3IXycH1iTiPOJ_Z_MeKyY1w0bp0gHrbmw/1500x300.jpg",
+			"width": 1500
+		}
+	},
+	"cityCoordinate": {
+		"latitude": 35.47203063964844,
+		"longitude": -97.52107238769531
+	},
+	"id": "5047092436529123303",
+	"key": "0:location:knowledgeGraph:42078297:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "TGI Fridays Oklahoma City, OK",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "en/5047092436529123303",
+	"timezone": "America/Chicago",
+	"uid": 42078297,
+	"yextDisplayCoordinate": {
+		"latitude": 35.539814,
+		"longitude": -97.595425
+	}
+}

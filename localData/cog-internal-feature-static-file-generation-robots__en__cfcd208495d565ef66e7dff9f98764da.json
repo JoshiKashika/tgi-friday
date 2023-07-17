@@ -1,0 +1,30 @@
+{
+	"__": {
+		"name": "robots",
+		"staticPage": {
+			"plugin": {}
+		},
+		"templateType": "JS"
+	},
+	"_site": {
+		"id": "global-data",
+		"meta": {
+			"entityType": {
+				"id": "ce_locatorPage",
+				"uid": 119232
+			},
+			"locale": "en"
+		},
+		"name": "Global Data",
+		"uid": 42078306
+	},
+	"businessId": 3218125,
+	"key": "0:robots:knowledgeGraph:0:en",
+	"locale": "en",
+	"meta": {
+		"locale": "en"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": ""
+}

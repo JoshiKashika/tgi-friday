@@ -8,8 +8,8 @@ import { CustomFieldDebuggerReactProvider } from '@yext/custom-field-debugger';
 import { JsonLd } from "react-schemaorg";
 import Opening from "../components/commons/openClose";
 import { nearByLocation } from "../types/nearByLocation";
-import Logo from "../images/logo-header.svg"
-import offerBanner from "../images/offer-banner.jpg"
+import Logo from "../images/logo-header.svg";
+import offerBanner from "../images/offer-banner.jpg";
 import IframeMap from "../components/locationDetail/IframeMap";
 import "../index.css";
 import {
@@ -39,26 +39,28 @@ import OpenClose from "../components/commons/openClose";
 import Faq from "../components/locationDetail/Faqs";
 import { StaticData } from "../../sites-global/staticData";
 import { Details } from "../components/locationDetail/details";
-
-import {apikey_for_entity, baseuRL,stagingBaseurl,AnalyticsEnableDebugging,AnalyticsEnableTrackingCookie, favicon } from "../../sites-global/global";
+import favicon from "../images/favicon.webp";
+import {apikey_for_entity, baseuRL,stagingBaseurl,AnalyticsEnableDebugging,AnalyticsEnableTrackingCookie } from "../../sites-global/global";
 import {
   AnalyticsProvider,
   AnalyticsScopeProvider,
 } from "@yext/pages/components";
 import FeaturesBrand from "../components/locationDetail/FeaturesBrand";
 import { Fade, Slide } from "react-awesome-reveal";
-import MgmTimber from "../components/locationDetail/MgmTimber";
+// import MgmTimber from "../components/locationDetail/MgmTimber";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
 import { Newsection } from "../components/locationDetail/Newsection";
 
 /**
  * Required when Knowledge Graph data is used for a template.
  */
+
 export const config: TemplateConfig = {
   stream: {
     $id: "locations-page",
     // Specifies the exact data that each generated document will contain. This data is passed in
     // directly as props to the default exported function.
+
     fields: [
       "id",
       "uid",
@@ -74,7 +76,8 @@ export const config: TemplateConfig = {
       "cityCoordinate",
       "c_section",
       "c_storeDescription",
-      "c_storeHeading"
+      "c_storeHeading",
+      "c_bannerImage",
     ],
     // Defines the scope of entities that qualify for this stream.
     filter: {
@@ -83,7 +86,7 @@ export const config: TemplateConfig = {
     },
     // The entity language profiles that documents will be generated for.
     localization: {
-      locales: ["en"],
+      locales: [ "en", "ja"],
       primary: false,
     },
   },
@@ -111,7 +114,9 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   //   url += `${document.slug.toString()}.html`;
   // }
 
-  return document.id;
+  return `${document.locale}/${document.id}`; 
+
+
 };
 /**
  * Defines a list of paths which will redirect to the path created by getPath.
@@ -213,7 +218,7 @@ export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({
         type: "meta",
         attributes: {
           name: "twitter:title",
-          content: document.c_meta_title?document.c_meta_title:`${document.name} Store of MGM Timber`,
+          content: document.c_meta_title?document.c_meta_title:`${document.name} Store of TGI friday`,
         },
       },
       {
@@ -270,7 +275,7 @@ const Location: Template<ExternalApiRenderData> = ({
     hours,
     mainPhone,
     photoGallery,
-    c_banner_image,
+    c_bannerImage,
     c_canonical,
     description,
     additionalHoursText,
@@ -403,7 +408,7 @@ breadcrumbScheme.push({
     return element.image.url
   }) : null;
   console.log(document)
-  let bannerimage = c_banner_image && c_banner_image.image.url;
+  // let bannerimage = c_banner_image && c_banner_image.image.url;
 
 
   return (
@@ -444,13 +449,16 @@ breadcrumbScheme.push({
         enableTrackingCookie={AnalyticsEnableTrackingCookie}
       >
         {" "}
+        
         <AnalyticsScopeProvider name={""}>
       <PageLayout global={_site}>
+
+        <Banner c_bannerImage={c_bannerImage}/>
 
 
       <div className="container">
             <div className='banner-text banner-dark-bg justify-center text-center'>
-              <h1 className="">{name} {name}</h1>
+              <h1 className="">{name}</h1>
                 <div className="openClosestatus detail-page closeing-div">
                   <OpenClose timezone={timezone} hours={hours} />
                 </div> 
@@ -482,12 +490,12 @@ breadcrumbScheme.push({
           </div>
           
         </div>
-        {console.log(c_section, "c_section")}
+        {/* {console.log(c_section, "c_section")} */}
        <div>
-    {c_section ? <Newsection c_section={c_section}/>:null}
+    {/* {c_section ? <Newsection c_section={c_section}/>:null} */}
         
        </div>
-       <div className="mt-8 mb-16 additional"  >
+       <div className="mt-8 mb-16 additional" >
        <div className="container">
        <div className= "rounded-xl drop-shadow-md">
         

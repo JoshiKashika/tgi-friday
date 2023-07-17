@@ -1,0 +1,56 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations-page",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "緑地帯",
+		"countryCode": "US",
+		"line1": "6460 キャピトル dr グリーンベルト、メリーランド州",
+		"localizedCountryName": "アメリカ合衆国",
+		"localizedRegionName": "メリーランド",
+		"postalCode": "20770",
+		"region": "MD"
+	},
+	"businessId": 3218125,
+	"c_bannerImage": {
+		"description": "bannerImage",
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/6exJg1O9mx3IXycH1iTiPOJ_Z_MeKyY1w0bp0gHrbmw/1500x300.jpg",
+			"width": 1500
+		}
+	},
+	"c_storeDescription": "In Manhattan in 1965, there was no place where people could go out to meet friends and make new ones in an environment that was at once both relaxed and yet exciting. Then, Alan Stillman opened Fridays as a way, he said, \"to meet Pan Am stewardesses.\" Suddenly, there was a place with great food, new and exciting drinks and an electric energy. A place where bartenders mixed the environment just as well as they mixed drinks. In short, a place like nowhere else. Today, Fridays in Conway, AR is still America's most iconic bar and grill. We embrace and celebrate our heritage as a bar. One that just happens to serve killer food in an environment where it's always Friday.",
+	"c_storeHeading": "TGI FRIDAY NEW STORE",
+	"cityCoordinate": {
+		"latitude": 39.00067138671875,
+		"longitude": -76.88031005859375
+	},
+	"id": "3079942137797124183",
+	"key": "0:location:knowledgeGraph:42078301:ja",
+	"locale": "ja",
+	"mainPhone": "+13013452503",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "ja"
+	},
+	"name": "TGI フライデー 2",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "ja/3079942137797124183",
+	"timezone": "America/New_York",
+	"uid": 42078301,
+	"yextDisplayCoordinate": {
+		"latitude": 38.997206,
+		"longitude": -76.894596
+	}
+}

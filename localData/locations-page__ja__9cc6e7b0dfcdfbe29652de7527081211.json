@@ -1,0 +1,52 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations-page",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "オクラホマシティ",
+		"countryCode": "US",
+		"line1": "4239 北西エクスピー",
+		"localizedCountryName": "アメリカ合衆国",
+		"localizedRegionName": "オクラホマ",
+		"postalCode": "73116",
+		"region": "OK"
+	},
+	"businessId": 3218125,
+	"c_bannerImage": {
+		"description": "bannerImage",
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/6exJg1O9mx3IXycH1iTiPOJ_Z_MeKyY1w0bp0gHrbmw/1500x300.jpg",
+			"width": 1500
+		}
+	},
+	"cityCoordinate": {
+		"latitude": 35.47203063964844,
+		"longitude": -97.52107238769531
+	},
+	"id": "5047092436529123303",
+	"key": "0:location:knowledgeGraph:42078297:ja",
+	"locale": "ja",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "ja"
+	},
+	"name": "TGIフライデーズ、オクラホマシティ、オクラホマ州",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"timezone": "America/Chicago",
+	"uid": 42078297,
+	"yextDisplayCoordinate": {
+		"latitude": 35.539814,
+		"longitude": -97.595425
+	}
+}

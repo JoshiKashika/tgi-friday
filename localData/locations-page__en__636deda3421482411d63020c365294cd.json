@@ -1,0 +1,65 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations-page",
+		"templateType": "JS"
+	},
+	"_site": {
+		"id": "global-data",
+		"meta": {
+			"entityType": {
+				"id": "ce_locatorPage",
+				"uid": 119232
+			},
+			"locale": "en"
+		},
+		"name": "Global Data",
+		"uid": 42078306
+	},
+	"address": {
+		"city": "Columbia",
+		"countryCode": "US",
+		"line1": "3030 I-70 Dr SE",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Missouri",
+		"postalCode": "65201",
+		"region": "MO"
+	},
+	"businessId": 3218125,
+	"c_bannerImage": {
+		"description": "bannerImage",
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/6exJg1O9mx3IXycH1iTiPOJ_Z_MeKyY1w0bp0gHrbmw/1500x300.jpg",
+			"width": 1500
+		}
+	},
+	"cityCoordinate": {
+		"latitude": 38.951551,
+		"longitude": -92.328594
+	},
+	"id": "2665661659839794463",
+	"key": "0:location:knowledgeGraph:42078296:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "TGI Fridays Columbia, MO",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "en/2665661659839794463",
+	"timezone": "America/Chicago",
+	"uid": 42078296,
+	"yextDisplayCoordinate": {
+		"latitude": 38.960149,
+		"longitude": -92.290661
+	}
+}

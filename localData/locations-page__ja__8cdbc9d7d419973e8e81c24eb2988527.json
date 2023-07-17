@@ -1,0 +1,119 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations-page",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "ハノーバー",
+		"countryCode": "US",
+		"line1": "7655 アランデル ミルズ ブールバード ハノーファー,",
+		"localizedCountryName": "アメリカ合衆国",
+		"localizedRegionName": "メリーランド",
+		"postalCode": "21076",
+		"region": "MD"
+	},
+	"businessId": 3218125,
+	"c_bannerImage": {
+		"description": "bannerImage",
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/6exJg1O9mx3IXycH1iTiPOJ_Z_MeKyY1w0bp0gHrbmw/1500x300.jpg",
+			"width": 1500
+		}
+	},
+	"cityCoordinate": {
+		"latitude": 39.192799,
+		"longitude": -76.724403
+	},
+	"hours": {
+		"friday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		},
+		"monday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		},
+		"saturday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		},
+		"thursday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		},
+		"tuesday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		},
+		"wednesday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "23:45",
+					"start": "10:45"
+				}
+			]
+		}
+	},
+	"id": "2065483319233156328",
+	"key": "0:location:knowledgeGraph:42078299:ja",
+	"locale": "ja",
+	"mainPhone": "+14103796762",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "ja"
+	},
+	"name": "金曜日",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "ja/2065483319233156328",
+	"timezone": "America/New_York",
+	"uid": 42078299,
+	"yextDisplayCoordinate": {
+		"latitude": 39.152047,
+		"longitude": -76.726113
+	}
+}
