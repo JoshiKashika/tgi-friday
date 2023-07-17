@@ -404,10 +404,10 @@ breadcrumbScheme.push({
     name: document.name,
   },
 });
-  let imageurl = photoGallery ? photoGallery.map((element: any) => {
-    return element.image.url
-  }) : null;
-  console.log(document)
+  // let imageurl = photoGallery ? photoGallery.map((element: any) => {
+  //   return element.image.url
+  // }) : null;
+  // console.log(document)
   // let bannerimage = c_banner_image && c_banner_image.image.url;
 
 
@@ -479,7 +479,7 @@ breadcrumbScheme.push({
           }
         </div>
   
-        <div className="nearby-sec">
+        {/* <div className="nearby-sec">
           <div className="container">
             <div className="sec-title"><h2 className="">{StaticData.NearStoretext}</h2></div>
             <div className="nearby-sec-inner">
@@ -489,7 +489,7 @@ breadcrumbScheme.push({
             </div>
           </div>
           
-        </div>
+        </div> */}
         {/* {console.log(c_section, "c_section")} */}
        <div>
     {/* {c_section ? <Newsection c_section={c_section}/>:null} */}
